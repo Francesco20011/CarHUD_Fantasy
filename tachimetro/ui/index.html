@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Fantasy Tachimetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="speedometer" class="speedometer fantasy-frame" style="display:none;">
+        <img src="icons/tachimetro.png" class="tachy-frame" alt="" />
+        <img src="icons/lancetta.png" id="speed-needle" class="tachy-needle" alt="" />
+        <div class="fantasy-glow"></div>
+        <div class="damage-bar">
+            <div id="damage-bar-inner" class="damage-bar-inner"></div>
+            <span id="damage-text">100%</span>
+        </div>
+        <span id="engine-status" class="engine-on">🟢</span>
+        <span id="speed-value" class="speed-value">0</span>
+        <span class="speed-unit">km/h</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
